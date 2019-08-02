@@ -11,7 +11,6 @@ import (
 
 func main() {
 	srv := micro.NewService(
-
 		micro.Name("go.micro.srv.user-cli"),
 		micro.Version("latest"),
 	)
